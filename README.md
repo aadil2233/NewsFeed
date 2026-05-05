@@ -38,10 +38,6 @@ A premium, editorial-style news aggregator built with Flutter. Designed with a f
 2. Extract the downloaded ZIP file to a folder on your computer.
 3. Open **Android Studio** or **VS Code**.
 4. Go to `File > Open...` and select the extracted `newsfeed` folder.
-
-https://github.com/user-attachments/assets/58633321-06b7-4363-b010-a5a2f47e75c8
-
-
 5. Open a terminal inside the IDE and run `flutter pub get` to install dependencies.
 6. Run the app on your emulator or physical device (or just type `flutter run`).
 
@@ -71,8 +67,7 @@ https://github.com/user-attachments/assets/58633321-06b7-4363-b010-a5a2f47e75c8
 
 ## Demo_video
 *(Note: The demo video below has been heavily compressed to meet GitHub's 10MB file size limit, which may result in a blurry or pixelated appearance. The actual app runs at a crisp 60fps in high resolution.)*
-
-
+https://github.com/user-attachments/assets/58633321-06b7-4363-b010-a5a2f47e75c8
 
 ## License
 
