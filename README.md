@@ -18,7 +18,6 @@ A premium, editorial-style news aggregator built with Flutter. Designed with a f
 - Networking: Dio
 - Local Storage: SharedPreferences
 - UI & Typography: Google Fonts, Custom PageRoutes
-- Environment Management: flutter_dotenv
 
 ## System Requirements
 
