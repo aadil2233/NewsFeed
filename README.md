@@ -1,41 +1,64 @@
-# News Feed Mobile App
+# 📰 Daily News
 
-A clean, modern Flutter mobile application that fetches Top Stories from the New York Times API and displays them in beautifully categorized tabs. Built strictly following clean code practices, this app ensures offline resilience, prevents API rate limiting gracefully, and utilizes modern Flutter widget states.
+A premium, editorial-style news aggregator built with Flutter. Designed with a focus on modern UX/UI, **Daily News** delivers top global stories with a classic magazine aesthetic, smooth custom animations, and high performance. Powered by the New York Times API.
 
-## Features
+## ✨ Features
 
-- **NYT API Integration**: Fetches top stories directly from the NYT Developer endpoints.
-- **Provider State Management**: Simple and robust state logic cleanly separated from UI.
-- **Dynamic Location Filtering**: Chips map exactly to the real-time geographic metadata available in the fetched articles.
-- **Offline Mode**: Fully caches every category loaded. Seamlessly displays the cache when there's a network issue or API rate limit.
-- **Image Caching & Hero Animations**: Uses `cached_network_image` and `Hero` transitions for a fluid UI experience without redundant image downloads.
-- **Dark Mode Support**: System-wide dark/light theme toggling from the app bar.
-- **API Rate Limit Guarding**: Built-in 60-minute background caching cooldown prevents the app from being temporarily blocked by the `429 Too Many Requests` limit on free NYT API keys.
+- **Editorial UI/UX**: Classic serif typography (Playfair Display & Merriweather) with a high-contrast, black-and-white magazine aesthetic.
+- **Dynamic Animations**: Custom page transitions (Fade + Slide), staggered list entrance animations, and an elegant branded splash screen.
+- **Real-Time Data**: Live fetching of top stories across multiple categories (World, Science, Tech, Arts) via the NYT API.
+- **High Performance**: Highly optimized list rendering with `RepaintBoundary`, debounced search filtering, and smart image caching (`CachedNetworkImage`).
+- **Offline Reading (Bookmarks)**: Save articles locally using `SharedPreferences` to read your favorite pieces later.
+- **Smart Time Formatting**: Dynamic "time ago" relative stamps (e.g., "2 hours ago", "Yesterday").
 
-## Getting Started
+## 🛠 Tech Stack
 
-### 1. Requirements
-Ensure you have the latest stable version of Flutter installed.
+- **Framework**: Flutter (Dart)
+- **State Management**: Provider
+- **Networking**: Dio
+- **Local Storage**: SharedPreferences
+- **UI & Typography**: Google Fonts, Custom PageRoutes
+- **Environment Management**: flutter_dotenv
 
-### 2. Add API Key
-You MUST provide your own New York Times API key.
-1. Open `lib/utils/constants.dart`.
-2. Locate the `nytApiKey` constant.
-3. Replace the placeholder string with your personal API key string:
-   ```dart
-   static const String nytApiKey = 'YOUR_API_KEY_HERE';
+## 🚀 Getting Started
+
+### Prerequisites
+- Flutter SDK (v3.19.0 or higher)
+- A valid [New York Times Developer API Key](https://developer.nytimes.com/)
+
+### Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/your-username/newsfeed.git
+   cd newsfeed
    ```
 
-### 3. Run the App
-From the root of the project directory, run:
-```bash
-flutter clean
-flutter pub get
-flutter run
-```
+2. **Install dependencies**
+   ```bash
+   flutter pub get
+   ```
 
-### 4. Running Unit Tests
-To run the widget/unit test validation suite:
-```bash
-flutter test
-```
+3. **Set up Environment Variables**
+   Create a `.env` file in the root directory of the project and add your NYT API Key:
+   ```env
+   NYT_API_KEY=your_api_key_here
+   ```
+
+4. **Run the App**
+   ```bash
+   flutter run
+   ```
+
+## 📱 Screenshots
+
+*(Add screenshots here once the repo is public!)*
+<p align="center">
+  <img src="https://via.placeholder.com/250x500.png?text=Home+Feed" width="250" />
+  <img src="https://via.placeholder.com/250x500.png?text=Article+Detail" width="250" />
+  <img src="https://via.placeholder.com/250x500.png?text=Saved+Articles" width="250" />
+</p>
+
+## 📄 License
+
+This project is open-source and available under the MIT License.
