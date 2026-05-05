@@ -58,15 +58,22 @@ A premium, editorial-style news aggregator built with Flutter. Designed with a f
 
 ## Screenshots
 
+## Splash_Screen
 <img width="720" height="1600" alt="splash_screen" src="https://github.com/user-attachments/assets/25c3796d-2992-4931-8183-1023e777ac1a" />
+## Home_Page
 <img width="720" height="1600" alt="homepage" src="https://github.com/user-attachments/assets/52d79760-6ba7-4795-8d0e-71f925c95791" />
+## Selection
 <img width="720" height="1600" alt="Sections" src="https://github.com/user-attachments/assets/edb6d575-a804-4890-a354-46eabed562f7" />
+## Saved
 <img width="720" height="1600" alt="Saved" src="https://github.com/user-attachments/assets/ecd26f60-8ec5-431a-bfe5-2cb36173ce46" />
+## Profile
 <img width="720" height="1600" alt="Profile" src="https://github.com/user-attachments/assets/6a531080-b8c4-486a-8abd-0428ba105fb8" />
+## Darkmode
 <img width="720" height="1600" alt="DarkMode" src="https://github.com/user-attachments/assets/a10a52a5-f7e8-4912-8924-337c10c76577" />
 
 ## Demo_video
 *(Note: The demo video below has been heavily compressed to meet GitHub's 10MB file size limit, which may result in a blurry or pixelated appearance. The actual app runs at a crisp 60fps in high resolution.)*
+
 https://github.com/user-attachments/assets/58633321-06b7-4363-b010-a5a2f47e75c8
 
 ## License
