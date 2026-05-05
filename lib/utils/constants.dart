@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_dotenv/flutter_dotenv.dart';
 
 class AppConstants {
   static const String appName = 'Daily News';
-  static String get nytApiKey => dotenv.env['NYT_API_KEY'] ?? '';
+  // Note: API key is exposed here strictly for internship reviewer convenience.
+  // In a production environment, this would be hidden via .env or backend.
+  static const String nytApiKey = 'GBE2MZQ18TWzdmH4UMdhITvE2rBuGWRchcnEaRjqqNP6337z';
   static const String nytBaseUrl = 'https://api.nytimes.com/svc/topstories/v2/';
 
   static const List<String> categories = [
