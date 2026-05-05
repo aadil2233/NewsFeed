@@ -31,13 +31,17 @@ A premium, editorial-style news aggregator built with Flutter. Designed with a f
 
 > ⚠️ **IMPORTANT NOTE FOR REVIEWERS** ⚠️
 > The New York Times API key is currently **hardcoded** in `lib/utils/constants.dart`. 
-> I am fully aware that in a real-world production environment, API keys should *never* be exposed in source control (they should be secured via `.env` or a backend server). However, to ensure zero-friction for this internship review process and guarantee the app runs perfectly right out of the box, I have intentionally left the key accessible.
+> I am fully aware that in a real-world production environment, **API keys should never be exposed** in source control (they should be secured via `.env` or a backend server). However, to ensure zero-friction for this internship review process and guarantee the app runs perfectly right out of the box, I have intentionally left the key accessible.
 
 **Option A: Download ZIP (Easiest)**
 1. On this GitHub page, click the green **Code** button and select **Download ZIP**.
 2. Extract the downloaded ZIP file to a folder on your computer.
 3. Open **Android Studio** or **VS Code**.
 4. Go to `File > Open...` and select the extracted `newsfeed` folder.
+
+https://github.com/user-attachments/assets/58633321-06b7-4363-b010-a5a2f47e75c8
+
+
 5. Open a terminal inside the IDE and run `flutter pub get` to install dependencies.
 6. Run the app on your emulator or physical device (or just type `flutter run`).
 
@@ -64,6 +68,11 @@ A premium, editorial-style news aggregator built with Flutter. Designed with a f
 <img width="720" height="1600" alt="Saved" src="https://github.com/user-attachments/assets/ecd26f60-8ec5-431a-bfe5-2cb36173ce46" />
 <img width="720" height="1600" alt="Profile" src="https://github.com/user-attachments/assets/6a531080-b8c4-486a-8abd-0428ba105fb8" />
 <img width="720" height="1600" alt="DarkMode" src="https://github.com/user-attachments/assets/a10a52a5-f7e8-4912-8924-337c10c76577" />
+
+## Demo_video
+*(Note: The demo video below has been heavily compressed to meet GitHub's 10MB file size limit, which may result in a blurry or pixelated appearance. The actual app runs at a crisp 60fps in high resolution.)*
+
+
 
 ## License
 
