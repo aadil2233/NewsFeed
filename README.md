@@ -27,23 +27,30 @@ A premium, editorial-style news aggregator built with Flutter. Designed with a f
 
 ## Getting Started
 
-### Installation
+### Installation (For Reviewers)
 
 > ⚠️ **IMPORTANT NOTE FOR REVIEWERS** ⚠️
 > The New York Times API key is currently **hardcoded** in `lib/utils/constants.dart`. 
 > I am fully aware that in a real-world production environment, API keys should *never* be exposed in source control (they should be secured via `.env` or a backend server). However, to ensure zero-friction for this internship review process and guarantee the app runs perfectly right out of the box, I have intentionally left the key accessible.
 
+**Option A: Download ZIP (Easiest)**
+1. On this GitHub page, click the green **Code** button and select **Download ZIP**.
+2. Extract the downloaded ZIP file to a folder on your computer.
+3. Open **Android Studio** or **VS Code**.
+4. Go to `File > Open...` and select the extracted `newsfeed` folder.
+5. Open a terminal inside the IDE and run `flutter pub get` to install dependencies.
+6. Run the app on your emulator or physical device (or just type `flutter run`).
+
+**Option B: Using Git**
 1. Clone the repository
    ```bash
    git clone https://github.com/itscodbro/newsfeed.git
    cd newsfeed
    ```
-
 2. Install dependencies
    ```bash
    flutter pub get
    ```
-
 3. Run the App
    ```bash
    flutter run
