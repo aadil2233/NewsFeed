@@ -82,9 +82,8 @@ A premium, editorial-style news aggregator built with Flutter. Designed with a f
 https://github.com/user-attachments/assets/58633321-06b7-4363-b010-a5a2f47e75c8
 
 ## APK Download
-
 Download Latest APK
-
+https://drive.google.com/drive/project/1nSKlWq_veDTYRsJeTzGDVtzGA5RO5C98?usp=sharing
 
 ## Submission Note
 This project fulfills all the requirements mentioned in the assignment:
