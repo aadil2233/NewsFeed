@@ -81,6 +81,21 @@ A premium, editorial-style news aggregator built with Flutter. Designed with a f
 
 https://github.com/user-attachments/assets/58633321-06b7-4363-b010-a5a2f47e75c8
 
+## APK Download
+
+Download Latest APK
+
+
+## Submission Note
+This project fulfills all the requirements mentioned in the assignment:
+
+NYT Top Stories API integration
+Category switching
+Filters (Keyword + Location)
+Offline support
+Proper state management using Provider
+Error handling & loading states
+
 ## License
 
 This project is open-source and available under the MIT License.
