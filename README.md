@@ -82,8 +82,11 @@ A premium, editorial-style news aggregator built with Flutter. Designed with a f
 https://github.com/user-attachments/assets/58633321-06b7-4363-b010-a5a2f47e75c8
 
 ## APK Download
-Download Latest APK
-https://drive.google.com/drive/project/1nSKlWq_veDTYRsJeTzGDVtzGA5RO5C98?usp=sharing
+
+[⬇️ Download Latest APK](https://drive.google.com/uc?export=download&id=1FoNqoOqXKvlfQgEa8_4F40q2B3sAkvu3)
+
+> **Note:** When downloading, Google Drive may show a warning saying *"Google Drive can't scan this file for viruses"*.  
+> Please click **"Download anyway"** — this is normal for all APK files.
 
 ## Submission Note
 This project fulfills all the requirements mentioned in the assignment:
